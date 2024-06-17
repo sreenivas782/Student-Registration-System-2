@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student registration form</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <h2 class="title">Student Registration System</h2>
+
+
+<div class="main-card">
+  
+    <div class="inputs">
+
+        <label for="id">Student Id:</label><br>
+        <input id='one'type="number" placeholder="enter id" name="id"><br><br><br>
+        <label for="name">Student Name:</label><br>
+        <input id="two"type="text" placeholder="enter name" name="name"><br><br><br>
+        <label for="class">Student Class:</label><br>
+        <input id='three'type="number" placeholder="enter class" name="class"><br><br><br>
+        <label for="email">Student Email:</label><br>
+        <input id='four'type="email" placeholder="enter email " name="email"><br><br><br>
+        <label for="adress">Address:</label><br>
+        <textarea id='five'name="address"></textarea><br><br>
+
+        <button id="addButton">Add</button>
+    </div>
+
+    <div class="data">
+        
+        <table class="table-box">
+            <thead>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Class</th>
+                <th>Email</th>
+                <th>Address</th>
+                <th>Actions</th>
+            </thead>
+
+            <tbody id="tableBody">
+               
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+ 
+<script src="intro.js"></script>    
+    
+</body>
+</html>

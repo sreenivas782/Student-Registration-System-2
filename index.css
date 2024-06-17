@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('bgm1.jpeg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow-y: hidden;
+    
+}
+.title{
+
+    align-items: center;
+    text-align: center;
+    color:burlywood;
+    margin-top: 10px;
+    
+}
+
+.main-card {
+
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+   
+}
+.inputs{
+    background-color:#102C57;
+    color: #FFCBCB;
+    padding: 10px 30px;
+    border-radius: 10px;
+    
+}
+
+input{
+    padding: 5px 60px;
+    border-radius: 15px;
+}
+textarea{
+    padding: 10px 60px;
+    border-radius: 10px;
+}
+
+button{
+    position: relative;
+    padding: 5px 50px;
+    left :70px;
+    border-radius: 10px;
+}
+#addButton{
+    background-color: orange;
+}
+
+.data{
+    overflow-y: auto;
+    position:relative;
+   padding: 0px 20px;
+    height: 70vh;
+}
+
+table ,th ,tr ,td{
+    border: solid 2px;
+    border-collapse: collapse;
+    overflow-x: hidden;
+    padding: 3px 30px;
+    
+}
+.delete-btn{
+    padding: 3px 8px;
+    position: relative;
+    left:30px;
+    cursor: pointer;
+}
+.edit-btn{
+    padding: 2px 15px;
+    position: relative;
+    left:30px;
+    cursor: pointer;
+
+}
+
+    
