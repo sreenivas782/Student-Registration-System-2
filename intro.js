@@ -18,7 +18,7 @@ function add() {
     let address = document.getElementById("five").value;
 
     if (id === "" || sName === "" || classN === "" || email === '' || address === '') {
-        alert('Please enter all fields');
+        alert('Please enter all fields');  // this will display alert message when any of the input filed is empty
     } else {
         let tableB = document.getElementById("tableBody");
         let tableR = document.createElement("tr");
@@ -54,7 +54,7 @@ function add() {
         tableR.appendChild(cell5);
         tableR.appendChild(cell6);
 
-        tableB.appendChild(tableR);
+        tableB.appendChild(tableR); //this will put the all inputs values in table body--> tr -->td
 
         // this will clear input fields after adding
         document.getElementById("one").value = "";
@@ -74,11 +74,11 @@ function add() {
 
 function removeItems() {
     let rowToRemove = this.closest('tr');
-    rowToRemove.remove();
+    rowToRemove.remove();                  // when the user click on delete button this will remove all data from table
     saveToLocalStorage();
 }
 
-function editItems() {
+function editItems() {                     // this function is for  edit button
     currentEditingRow = this.closest('tr');
     let cells = currentEditingRow.children;
 
